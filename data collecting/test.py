@@ -7,13 +7,6 @@ import os.path
 from os import path
 import random
 
-
-def humanTypes():
-    emotion = int(input(
-        "1-Angry\n2-Disgust\n3-Fear\n4-\Happiness\n5-Sadness\n6-Surprise\nChoose:"))
-    return emotion
-
-
 def createFolder(category):
     direction = "images/"
     if path.exists(direction) == False:
